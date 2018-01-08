@@ -1,0 +1,14 @@
+logs
+*.log
+pids
+*.pid
+*.seed
+
+lib-cov
+coverage
+temp
+node_modules
+.build
+.nyc_output
+test-results.xml
+.env

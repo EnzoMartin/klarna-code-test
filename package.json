@@ -1,0 +1,32 @@
+{
+  "name": "klarna-code-test",
+  "version": "1.0.0",
+  "description": "Code test for Klarna",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/EnzoMartin/klarna-code-test.git"
+  },
+  "license": "MIT",
+  "author": "Enzo Martin <enzo.r.martin@gmail.com>",
+  "contributors": [
+    "Enzo Martin <enzo.r.martin@gmail.com>"
+  ],
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "test": "nyc mocha --full-trace --exit --recursive",
+    "test:watch": "nyc mocha --full-trace --recursive -w"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "enzo-codestyle": "^5.1.0",
+    "eslint": "^4.14.0",
+    "mocha": "^4.0.1",
+    "nyc": "^11.4.1"
+  }
+}

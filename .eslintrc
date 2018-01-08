@@ -1,0 +1,13 @@
+{
+  "extends": "./node_modules/enzo-codestyle/.eslintrc",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "env": {
+    "webextensions": true,
+    "browser": true
+  }
+}

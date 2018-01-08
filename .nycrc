@@ -1,0 +1,19 @@
+{
+  "check-coverage": false,
+  "exclude": [
+    "coverage/**/*",
+    "node_modules/**/*",
+    "service/start.js",
+    "migrations/**/*",
+    "test/**/*",
+    "nginx/**/*",
+    "client/**/*",
+    "prettier.config.js"
+  ],
+  "reporter": [
+    "html",
+    "text-summary"
+  ],
+  "cache": true,
+  "all": true
+}
